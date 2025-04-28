@@ -1,11 +1,11 @@
-import './App.css'
+import React from 'react'
+import Navbar from "./Components/Navbar/Navbar.jsx";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-
-    </>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 
