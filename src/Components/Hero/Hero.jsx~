@@ -1,0 +1,19 @@
+import React from 'react';
+import styles from './Hero.module.css'
+import profile_img from '../../assets/profile.jpg'
+
+const Hero = () => {
+    return (
+        <div className={styles['hero']}>
+            <img src={profile_img} alt='' />
+            <h1><span>I'm Milan Jagodic,</span> frontend developer based in Banja Luka.</h1>
+            <p>aaa</p>
+            <div className={styles['hero-action']}>
+                <div className={styles['hero-connect']}>Connect with me</div>
+                <div className={styles['hero-resume']}>My resume</div>
+            </div>
+        </div>
+    );
+};
+
+export default Hero;
