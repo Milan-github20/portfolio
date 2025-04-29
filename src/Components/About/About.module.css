@@ -179,7 +179,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px) {
     .about {
         margin: 50px 30px;
     }
