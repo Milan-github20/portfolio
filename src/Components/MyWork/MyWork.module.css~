@@ -100,7 +100,7 @@
 
 @media (max-width: 500px) {
     .mywork-title h1 {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .mywork-showmore {
