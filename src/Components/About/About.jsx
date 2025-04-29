@@ -5,7 +5,7 @@ import profile_image from '../../assets/profile.jpg'
 
 const About = () => {
     return (
-        <div className={styles['about']}>
+        <div id='about' className={styles['about']}>
             <div className={styles['about-title']}>
                 <h1>About me</h1>
                 <img src={theme_pattern} alt="" />
@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className={styles['about-right']}>
                     <div className={styles['about-para']}>
-                        <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations and contributing to their success and gruwth.</p>
-                        <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                        <p>Frontend Developer with hands-on experience gained through working on various projects. Throughout my work so far, I have had the opportunity to develop modern, functional, and customized web applications, collaborating with different teams and clients.</p>
+                        <p>I am dedicated to creating high-quality user experiences, continuously learning new technologies, and improving my skills. With each project, I strive to bring additional value through careful planning, precise execution, and the enthusiasm I invest in my work.</p>
                     </div>
                     <div className={styles['about-skills']}>
                         <div className={styles['about-skill']}><p>HTML & CSS</p><hr style={{width: '50%'}}/></div>
