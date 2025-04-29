@@ -98,7 +98,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px) {
     .mywork-title h1 {
         font-size: 33px;
     }
