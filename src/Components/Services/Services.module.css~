@@ -125,4 +125,8 @@
         grid-template-columns: 1fr;
         gap: 30px;
     }
+
+    .services-title h1 {
+        font-size: 40px;
+    }
 }
