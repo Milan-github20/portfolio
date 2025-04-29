@@ -100,7 +100,7 @@
 
 @media (max-width: 500px) {
     .mywork-title h1 {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .mywork-showmore {
@@ -109,5 +109,17 @@
 
     .mywork-showmore img {
         width: 25px;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .mywork-showmore {
+        padding: 10px 40px;
+        font-size: 18px;
+        margin: 10px auto;
+        cursor: pointer;
     }
 }
