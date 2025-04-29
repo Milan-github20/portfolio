@@ -97,3 +97,17 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 370px) {
+    .mywork-title h1 {
+        font-size: 33px;
+    }
+
+    .mywork-showmore {
+        font-size: 15px;
+    }
+
+    .mywork-showmore img {
+        width: 25px;
+    }
+}
