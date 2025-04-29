@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px) {
     .footer-bottom-right {
         font-size: 16px;
         margin-bottom: 50px;
@@ -116,5 +116,9 @@
 
     .footer-top-left p {
         font-size: 18px;
+    }
+    
+    .footer {
+        margin: 50px 40px;
     }
 }

@@ -182,7 +182,7 @@
     }
 
     .contact-left h1 {
-        font-size: 32px;
+        font-size: 33px;
     }
 
     .contact-left p {
