@@ -15,7 +15,11 @@ const Hero = () => {
                         Connect with me
                     </div>
                 </AnchorLink>
-                <div className={styles['hero-resume']}>My resume</div>
+                <div className={styles['hero-resume']}>
+                    <a href="/CV-Milan-Jagodic.pdf" download style={{textDecoration: 'none', color: 'inherit'}}>
+                        My resume
+                    </a>
+                </div>
             </div>
         </div>
     );
