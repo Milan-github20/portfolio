@@ -148,6 +148,7 @@
         right: 30px;
         cursor: pointer;
         width: 25px;
+        z-index: 2;
     }
 
     .nav-mob-close {
@@ -157,5 +158,9 @@
         left: 200px;
         width: 25px;
         cursor: pointer;
+    }
+
+    .navbar-title h1 {
+        font-size: 35px;
     }
 }
