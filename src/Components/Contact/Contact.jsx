@@ -13,6 +13,15 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
 
+        const name = formData.get("name")?.trim();
+        const email = formData.get("email")?.trim();
+        const messageText = formData.get("message")?.trim();
+
+        if (!name || !email || !messageText) {
+            message.error("Please fill in all fields before submitting.");
+            return;
+        }
+
         formData.append("access_key", "896d4b2a-b428-44a7-89d4-5f17eeab8ca7");
 
         const object = Object.fromEntries(formData);
@@ -32,6 +41,7 @@ const Contact = () => {
             event.target.reset();
         }
     };
+
 
     return (
         <div id='contact' className={styles['contact']}>
